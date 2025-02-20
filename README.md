@@ -30,3 +30,8 @@ docker build -t transcription-app .
 ```bash
 docker run -p 8501:8501 transcription-app
 ```  
+
+Si il n'y a rien sur l'adresse affichée dans le terminal, vous pouvez vous rendre à l'adresse suivante (l'adresse http://0.0.0.0:8501 marche sous linux mais pas sous windows) :
+```bash
+http://127.0.0.1:8501/
+```
